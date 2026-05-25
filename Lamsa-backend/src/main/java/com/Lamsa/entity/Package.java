@@ -1,4 +1,5 @@
-package com.example.Lamsa_backend.entity;
+package com.Lamsa.entity;
+
 
 import jakarta.persistence.*;
 import lombok.*;
