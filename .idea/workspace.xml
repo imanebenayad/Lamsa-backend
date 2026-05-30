@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7de9c26-0dbd-45af-ab44-23120b6e951e" name="Changes" comment="first commit - backend setup">
-      <change afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/repository/PackageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/example/Lamsa_backend/LamsaBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/LamsaBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/example/Lamsa_backend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/example/Lamsa_backend/entity/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/entity/Package.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/example/Lamsa_backend/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/example/Lamsa_backend/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/example/Lamsa_backend/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/example/Lamsa_backend/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/test/java/com/example/Lamsa_backend/LamsaBackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/test/java/com/Lamsa/LamsaBackendApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="d7de9c26-0dbd-45af-ab44-23120b6e951e" name="Changes" comment="first commit - backend setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779666920040</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="first commit - backend setup">
+      <option name="closed" value="true" />
+      <created>1779668005080</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1779668005080</updated>
+    </task>
+    <task id="LOCAL-00017" summary="first commit - backend setup">
+      <option name="closed" value="true" />
+      <created>1779668121778</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1779668121778</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
