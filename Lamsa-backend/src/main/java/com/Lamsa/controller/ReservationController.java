@@ -4,6 +4,7 @@ import com.Lamsa.entity.Reservation;
 import com.Lamsa.service.ReservationService;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @RestController
@@ -18,8 +19,16 @@ public class ReservationController {
     }
 
     @PostMapping
-    public Reservation createReservation(@RequestBody Reservation r) {
-        return reservationService.addReservation(r);
+    public Reservation createReservation(
+            @RequestParam Long userId,
+            @RequestParam Long packageId,
+            @RequestParam String date
+    ) {
+        return reservationService.createReservation(
+                userId,
+                packageId,
+                LocalDate.parse(date)
+        );
     }
 
     @GetMapping
