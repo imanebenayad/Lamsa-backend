@@ -17,7 +17,6 @@ public class ReservationService {
 
     // add reservation
     public Reservation addReservation(Reservation r) {
-        r.setStatus("PENDING");
         return reservationRepository.save(r);
     }
 

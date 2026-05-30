@@ -20,8 +20,10 @@ public class Reservation {
     private String status;
 
     @ManyToOne
+    @JoinColumn(name = "user_id")
     private User user;
 
     @ManyToOne
+    @JoinColumn(name = "package_id")
     private Package pkg;
 }
