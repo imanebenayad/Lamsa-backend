@@ -8,7 +8,6 @@ import com.Lamsa.repository.ReservationRepository;
 import com.Lamsa.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
-
 import java.time.LocalDate;
 import java.util.List;
 
@@ -27,10 +26,14 @@ public class ReservationService {
         this.packageRepository = packageRepository;
     }
 
+
     public Reservation createReservation(Long userId, Long packageId, LocalDate date) {
 
-        User user = userRepository.findById(userId).orElseThrow();
-        Package pkg = packageRepository.findById(packageId).orElseThrow();
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        Package pkg = packageRepository.findById(packageId)
+                .orElseThrow(() -> new RuntimeException("Package not found"));
 
         Reservation r = new Reservation();
         r.setUser(user);

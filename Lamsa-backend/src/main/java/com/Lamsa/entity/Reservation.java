@@ -26,4 +26,16 @@ public class Reservation {
     @ManyToOne
     @JoinColumn(name = "package_id")
     private Package pkg;
+
+    public void setUser(User user) {
+    }
+
+    public void setPkg(Package pkg) {
+    }
+
+    public void setDate(LocalDate date) {
+    }
+
+    public void setStatus(String pending) {
+    }
 }

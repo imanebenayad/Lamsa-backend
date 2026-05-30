@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7de9c26-0dbd-45af-ab44-23120b6e951e" name="Changes" comment="first commit - backend setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/entity/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/entity/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/service/ReservationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,9 @@
     &quot;accountId&quot;: &quot;c691f0cf-e086-4bfc-96c8-dd4c9903a02f&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/service/ReservationService.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -289,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780175437019</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="first commit - backend setup">
+      <option name="closed" value="true" />
+      <created>1780179075943</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1780179075943</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
