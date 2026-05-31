@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7de9c26-0dbd-45af-ab44-23120b6e951e" name="Changes" comment="first commit - backend setup" />
+    <list default="true" id="d7de9c26-0dbd-45af-ab44-23120b6e951e" name="Changes" comment="first commit - backend setup">
+      <change afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lamsa-backend/src/main/java/com/Lamsa/entity/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780179723079</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="first commit - backend setup">
+      <option name="closed" value="true" />
+      <created>1780180042019</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1780180042019</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
